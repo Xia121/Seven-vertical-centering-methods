@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>100% 高度的 afrer before 加上 inline block</title>
+    <style>
+        .parent{
+            border: 3px solid red;
+            height: 600px;
+            text-align: center;
+        }
+
+        .child{
+            border: 3px solid black;
+            display: inline-block;
+            width: 300px;
+            vertical-align: middle;
+        }
+
+        .parent .before{
+            outline: 3px solid red;
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+        .parent .after{
+            outline: 3px solid red;
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <span class=before></span><div class="child">
+
+        一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字一串文字
+
+    </div><span class=after></span>
+    </div>
+</body>
+</html>
